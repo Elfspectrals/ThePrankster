@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "The Prankster",
+  "description": "Troll in a friendy way ( no permanent damage ! )",
+  "version": "1.0",
+  "permissions": ["activeTab"],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["jquery.js", "PrankMaster.js"]
+    }
+  ]
+}
